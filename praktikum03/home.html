@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Pemrograman Web</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Times New Roman", Times, serif;
+            background-color: white;
+        }
+        #header {
+            background-color: cyan;
+            text-align: center;
+            height: 100px;
+            border-bottom: 3px solid #888888;
+            padding-top: 15px;
+            box-sizing: border-box;
+        }
+        #header h1 {
+            margin: 0 0 22px 0;
+            font-size: 32px;
+        }
+        #header h4 {
+            margin: 0;
+            font-size: 16px;
+        }
+        #tengah {
+            display: flex;
+            height: 230px;
+        }
+        #menu {
+            width: 150px;
+            background-color: white;
+            padding-top: 8px;
+            box-sizing: border-box;
+        }
+        #menu ol {
+            margin: 0;
+            padding-left: 45px;
+        }
+        #isi {
+            flex: 1;
+            height: 100%;
+            border: none;
+            border-left: 3px solid #888888;
+            background-color: pink;
+        }
+        #footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            height: 48px;
+            line-height: 48px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Praktikum Pemrograman Web</h1>
+        <h4>Amam Marwa (0110226009) - Teknik Informatika 2026</h4>
+    </div>
+    <div id="tengah">
+        <div id="menu">
+            <ol>
+                <li><a href="file:///d%3A/praktikum/praktikum01/assets/index.html" target="konten">Praktikum 1</a></li>
+                <li><a href="file:///d%3A/praktikum/praktikum02/form.html" target="konten">Praktikum 2</a></li>
+            </ol>
+        </div>
+        <iframe id="isi" name="konten"
+            srcdoc="<body style='background-color:pink; margin:8px; font-family:Times New Roman,serif'><h1>Praktikum 2</h1></body>">
+        </iframe>
+    </div>
+    <div id="footer">
+        Dev By Fikri &copy; 2022
+    </div>
+</body>
+</html>
