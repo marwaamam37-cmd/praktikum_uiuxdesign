@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 
-.container {
+.bird {
     display: flex;
     justify-content: space-between;
     background-color: antiquewhite;
